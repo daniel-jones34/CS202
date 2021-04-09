@@ -1,0 +1,31 @@
+/*
+Stylesheet for CS202
+* version:1.0
+* las Modified: 4.2.2021
+* author: Daniel Jones
+* email: daniel.jones3415@yahoo.com
+* website: Lesson 2
+*/
+
+/* imported CSS */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+/* style rule - selector{declaration;} */
+/* declaration - {propertynam:value;} */
+/* css variables */
+
+:root{
+    --main-color: #05a081;
+    --font-family: 'Avenir';
+    --primary-color: red; 
+}
+
+body{
+    background-color: lightblue; 
+    font-family: var(--font-family);
+}
+h3{
+    color: var(--main-color) !important;
+}
+/* important rule !important*/
